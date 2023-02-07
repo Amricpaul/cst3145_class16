@@ -3,8 +3,10 @@ var cacheFiles = [
     '/',
     '/index.html',
     '/css/main.css',
-    '/js/lesson.js',
-    '/img/'
+    '/js/lessons.js',
+    '/img',
+    '/tutorio.webmanifest',
+    
 ];
 
 self.addEventListener('install', function(e) {
