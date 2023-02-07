@@ -69,9 +69,11 @@
         <!-- SHOW CART DRAWER -->
         <div>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-              <div class="offcanvas-header">
+              <div class="offcanvas-header d-flex align-content-between">
                 <h3 id="offcanvasRightLabel mb-4">Cart Items</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
+              
               <div class="offcanvas-body">
                     <div class="alert alert-info" v-if="cart.length == 0">Your cart is currently empty.</div>
                     <div class="cart-items">
