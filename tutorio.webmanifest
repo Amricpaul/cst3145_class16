@@ -1,0 +1,14 @@
+{
+    "name": "tutoria",
+    "version": "1.0",
+    "short_name": "petstore",
+    "description": "Learning Made Easy",
+    "icons": [{
+        "src": "img/logo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+    }],
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#080021"
+}
