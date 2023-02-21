@@ -1,7 +1,7 @@
 {
-    "name": "tutoria",
+    "name": "Tutoria",
     "version": "1.0",
-    "short_name": "petstore",
+    "short_name": "Tutoria",
     "description": "Learning Made Easy",
     "icons": [{
         "src": "img/logo.png",
@@ -10,5 +10,6 @@
     }],
     "start_url": "index.html",
     "display": "fullscreen",
-    "background_color": "#080021"
+    "background_color": "#080021",
+    "theme_color": "#080021"
 }
